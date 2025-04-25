@@ -26,5 +26,5 @@ int main() {
     count_lines(fd, i*chunk_size, chunk_size);
   }
   count_lines(fd, (NUM_CHUNKS-1)*chunk_size, chunk_size + remainder);
-  printf("There are %d lines\n", res);
+  printf("There are %ld lines\n", res);
 }
